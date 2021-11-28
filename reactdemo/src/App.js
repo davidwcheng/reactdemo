@@ -17,6 +17,7 @@ function App() {
   const [image, setImage] = useState();
   return (
     <div className="App">
+      <h1>Type into the textbox below if you want to, idk idc</h1>
       <header className="App-header">
         <input type="text" style={{ width: "200px", height: "50px", fontFamily: "Comic Sans MS", fontSize: "30px", marginBottom: "10px" }} onChange={(event) => setImage(event.target.value)} />
         <img style={{ backgroundSize: "contain", height: "400px", width: "auto" }} src={images[image]} />
