@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
@@ -12,7 +11,8 @@ function App() {
     "bruh": "https://c.tenor.com/KlCYzllf0J0AAAAd/bruh.gif",
     "dawg": "https://external-preview.redd.it/fX-BW8AT4MiiVpu9TzKk9EsOYNqpIrljDD5gao07V4k.jpg?auto=webp&s=f0e8bfa3676f55c6e5657c412ded98dafbad4f5f",
     "beans": "https://i.pinimg.com/474x/92/62/3b/92623baf166d9faf2e77fecd355a0545.jpg",
-    "aang": "https://preview.redd.it/8kpwuq79h4851.jpg?auto=webp&s=fd50d6f2d0d4da2e55f636733c73153ff9789ae6"
+    "aang": "https://preview.redd.it/8kpwuq79h4851.jpg?auto=webp&s=fd50d6f2d0d4da2e55f636733c73153ff9789ae6",
+    "spange": "https://api.time.com/wp-content/uploads/2019/08/caveman-spongebob-spongegar.png" 
   }
   const [image, setImage] = useState();
   return (
